@@ -38,12 +38,12 @@ SpeechRecognition|3.8.1
 ## Results & Demo
 ### 手勢辨識
 <div align="center">
-<img src="./img/cam.gif" width = "75%" />
+<img src="./img/cam.gif" width = "50%" />
 </div>
 
 ### 語音辨識
 <div align="center">
-<img src="./img/voc.gif" width = "75%" />
+<img src="./img/voc.gif" width = "50%" />
 </div>
 
 ### [Demo Video完整版](https://www.itread01.com/content/1552121901.html)
