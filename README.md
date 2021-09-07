@@ -35,18 +35,34 @@ SpeechRecognition|3.8.1
 <img src="./img/voice.png" width = "75%" />
 </div>
 
+### WorkFlow
+#### 硬體電路示意圖
+如下圖，使用元件包括**Raspberry Pi**、 **Pi Camera** 、**Respeaker**、**腳位插上擴充版**、**麵包版**、**喇叭**、數個**伺服馬達**等。
+<div align="center">
+<img src="./img/hard.jpg" width = "100%" />
+</div>
+
+#### 軟體執行流程圖
+整體程式流程如下圖所示。
+<div align="center">
+<img src="./img/soft.jpg" width = "100%" />
+</div>
+
 ## Results & Demo
 ### 手勢辨識
+利用 **Raspberry Pi** 結合 **Pi Camera** 影像，進行手勢辨識，並把結果展現在機械手臂。
 <div align="center">
 <img src="./img/cam.gif" width = "50%" />
 </div>
 
 ### 語音辨識
+利用 **Raspberry Pi** 結合 **Respeaker** 取得音源，進行語音辨識，並把結果展現在機械手臂。
 <div align="center">
 <img src="./img/voc.gif" width = "50%" />
 </div>
 
 ### [Demo Video完整版](https://www.itread01.com/content/1552121901.html)
+上方影片連結有完整的功能介紹與解說，並且成功展示語音辨識的功能。
 
 ## Usage
 ### 輸入執行指令:
