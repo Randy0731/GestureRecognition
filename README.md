@@ -16,7 +16,7 @@ SpeechRecognition|3.8.1
 
 ## Getting Started
 ### 手勢辨識
-首先手勢辨識的部分，我們利用攝影機去讀取使用者的手勢，每一張手勢的圖片都會先用 `BackgroundSubtractorMOG2` 的算法來消除背景，再來分解為 **YUV 圖像**去取得 **CR 分量**，經過**高斯濾波後將圖像二值化**，之後利用 **opencv** 的 **convexHull** 尋找到手的外框並用 `convexityDefects` 取得更進一步的資訊，如 `startPoint`、`endPoint`、`farPoint`、`depth`，我們再利用這些數值進行計算，即可得到凹點個數，藉此可以判斷當下的手勢所伸出的手指共有幾隻，並且讓機械手臂比出對應的手勢及語音說出對應的數字，執行步驟如下:
+首先手勢辨識的部分，我們利用攝影機去讀取使用者的手勢，每一張手勢的圖片都會先用 `BackgroundSubtractorMOG2` 的算法來消除背景，再來分解為 **YUV 圖像**去取得 **CR 分量**，經過**高斯濾波後將圖像二值化**，之後利用 **opencv** 的 `convexHull` 尋找到手的外框並用 `convexityDefects` 取得更進一步的資訊，如 `startPoint`、`endPoint`、`farPoint`、`depth`，我們再利用這些數值進行計算，即可得到凹點個數，藉此可以判斷當下的手勢所伸出的手指共有幾隻，並且讓機械手臂比出對應的手勢及語音說出對應的數字，執行步驟如下:
 1. 執行程式後輸入 **1**，選擇 `Camera Recognization`
 2. 選擇 Camera 後可以顯示拍照視窗，比好手勢後，按下 `s` 進行辨識
 3. 如下圖，顯示辨識結果，並且機器手臂會指出 `2` 的手勢以及產生語音
