@@ -61,7 +61,7 @@ SpeechRecognition|3.8.1
 <img src="./img/voc.gif" width = "50%" />
 </div>
 
-### [Demo Video完整版](https://www.itread01.com/content/1552121901.html)
+### [Demo Video完整版](https://www.youtube.com/watch?v=2ANPHodhOUU)
 上方影片連結有完整的功能介紹與解說，並且成功展示語音辨識的功能。
 
 ## Usage
