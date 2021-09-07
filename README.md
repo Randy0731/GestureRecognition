@@ -76,7 +76,7 @@ SpeechRecognition|3.8.1
 
 - [OpenCV function Implement](https://blog.csdn.net/qq_36089056/article/details/85345882)
 
-- [Hand Detection and Finger Counting Using OpenCV-Python](https://medium.com/analytics-vidhya/hand-detection-and-finger-counting-using-opencv-python-5b594704eb08)
-
 - [OpenCV ConvexHull Implement](https://kknews.cc/zh-tw/code/a68ega6.html)
+
+- [Hand Detection and Finger Counting Using OpenCV-Python](https://medium.com/analytics-vidhya/hand-detection-and-finger-counting-using-opencv-python-5b594704eb08)
 
