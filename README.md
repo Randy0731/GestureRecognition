@@ -35,9 +35,32 @@ SpeechRecognition|3.8.1
 <img src="./img/voice.png" width = "75%" />
 </div>
 
+## Results & Demo
+### 手勢辨識
+<div align="center">
+<img src="./img/cam.gif" width = "75%" />
+</div>
 
+### 語音辨識
+<div align="center">
+<img src="./img/voc.gif" width = "75%" />
+</div>
+
+### [Demo Video完整版](https://www.itread01.com/content/1552121901.html)
 
 ## Usage
+### 輸入執行指令:
+  ``` bash
+  # Execute Program
+  $ python3 mardo_main.py
+  ```
+
 ## References
 - [Calculator Algorithm](https://www.itread01.com/content/1552121901.html)
+
+- [OpenCV function Implement](https://blog.csdn.net/qq_36089056/article/details/85345882)
+
+- [Hand Detection and Finger Counting Using OpenCV-Python](https://medium.com/analytics-vidhya/hand-detection-and-finger-counting-using-opencv-python-5b594704eb08)
+
+- [OpenCV ConvexHull Implement](https://kknews.cc/zh-tw/code/a68ega6.html)
 
