@@ -45,7 +45,7 @@ SpeechRecognition|3.8.1
 #### 軟體執行流程圖
 整體程式流程如下圖所示。
 <div align="center">
-<img src="./img/soft.jpg" width = "100%" />
+<img src="./img/flow.png" width = "100%" />
 </div>
 
 ## Results & Demo
